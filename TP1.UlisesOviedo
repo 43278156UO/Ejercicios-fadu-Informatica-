@@ -1,0 +1,52 @@
+Algoritmo VERIFICADOR
+	// VARIABLES //
+	
+	Definir nombre Como Caracter
+	Definir diaNacimiento , mesNacimiento ,anioNacimiento Como entero
+	Definir diaActual ,mesActual,anioActual Como entero
+	Definir edad , horas , minutos Como entero
+	
+	// DATOS USUARIO //
+	
+	Escribir " Ingrese su nombre "
+	Leer nombre
+	
+	Escribir " Ingrese el dia actual "
+	Leer diaActual
+	
+	Escribir " Ingrese el mes actual "
+	Leer mesActual
+	
+	Escribir " Ingrese el año actual "
+	Leer anioActual
+	
+	Escribir " Ingrese el dia de su nacimiento "
+    Leer diaNacimiento
+	
+	Escribir " Ingrese el mes de su nacimiento "
+	Leer mesNacimiento
+	
+	Escribir " Ingrese el año de su nacimiento "
+	Leer anioNacimiento
+	
+
+	//Calculo de la edad en años//
+	
+	edad <- anioActual - anioNacimiento
+	
+	// Calculos horas y minutos transcurridos //
+	
+	horas <-edad  * 8760 // 24 horas * 365 dias = 8760 
+	minutos <-horas * 60 
+	
+	//Mostrar resultados 
+	
+	Escribir " Usted se llama ", nombre ;
+	Escribir " Usted tiene ", edad ," años de edad " 
+	Escribir " Han pasado " , horas ," horas desde su nacimiento " 
+	Escribir " Han pasado " , minutos , " minutos desde su nacimiento "
+	
+FinAlgoritmo
+
+	
+	
